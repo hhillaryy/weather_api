@@ -13,3 +13,8 @@
 #farenheit {
   display: none;
 }
+
+#temperature {
+  background-color: orange;
+  color: white;
+}

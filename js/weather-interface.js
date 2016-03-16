@@ -36,10 +36,14 @@ $(document).ready(function() {
       $('#celsius').show();
       $('.showWeather').hide();
       $('#farenheit').hide();
+      $('#converttoC').hide();
   });
 
   $('#converttoF').click(function() {
-    $('#farenheit').show();
+    $('#celsius').hide();
+    $('.showWeather').hide();
+      $('#farenheit').show();
+    $('#converttoF').hide();
   });
 
 });
