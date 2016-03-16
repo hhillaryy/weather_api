@@ -24,7 +24,7 @@ var converttoF = require('./../js/temp.js').convertF;
 var converttoC = require('./../js/temp.js').convertC;
 
 $(document).ready(function() {
-  $('.cfButtons').hide();
+  // $(".cfButtons").hide()
   $('#weatherLocation').click(function() {
     var city = $('#location').val();
     $('#location').val("");

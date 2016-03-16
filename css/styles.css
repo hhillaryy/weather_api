@@ -1,19 +1,15 @@
-button #converttoC {
-  display: none;
-};
-
-button #converttoF {
-  display: none;
-};
-
-p #celsius {
+#converttoC {
   display: none;
 }
 
-p #farenheit {
+#converttoF {
   display: none;
 }
 
-body {
-  background-color: green;
+#celsius {
+  display: none;
+}
+
+#farenheit {
+  display: none;
 }
