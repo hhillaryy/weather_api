@@ -6,11 +6,11 @@
 
 exports.convertF = function(cityTemp) {
   return ((cityTemp * 1.8) - 459.67);
-}
+};
 
 exports.convertC = function(cityTemp) {
   return (cityTemp - 273.15);
-}
+};
 
 },{}],2:[function(require,module,exports){
 $(document).ready(function(){
@@ -24,6 +24,7 @@ var converttoF = require('./../js/temp.js').convertF;
 var converttoC = require('./../js/temp.js').convertC;
 
 $(document).ready(function() {
+  $('.cfButtons').hide();
   $('#weatherLocation').click(function() {
     var city = $('#location').val();
     $('#location').val("");

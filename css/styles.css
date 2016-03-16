@@ -1,7 +1,19 @@
 button #converttoC {
   display: none;
-}
+};
 
 button #converttoF {
   display: none;
+};
+
+p #celsius {
+  display: none;
+}
+
+p #farenheit {
+  display: none;
+}
+
+body {
+  background-color: green;
 }
